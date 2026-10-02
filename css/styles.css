@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*Base Styles*/
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+header {
+  background: url("../images/homepage/hero-bg-desktop.jpg") no-repeat center
+    center/cover;
+  background-color: white;
+  overlay: rgba(247, 241, 241, 0.5);
+  color: rgb(248, 243, 243);
+  height: 400px;
+  padding: 50px;
+  margin-bottom: 2em;
+}
+.btn {
+  background-color: rgb(10, 0, 0);
+  color: white;
+  padding: 1em 2em;
+  border-radius: 5px;
+}
+
+nav {
+  padding: 2em 0;
+}
+.hero {
+  padding: 2em 0;
+  width: 50%;
+}
+.hero p {
+  padding: 2em 0;
+}
+main {
+  
+  color: rgb(10, 0, 0);
+  padding: 40px;
+  margin-bottom: 2em;
+}
+
+
+.enjoyable-place {
+  grid-row: 2 / 3;
+  grid-column: 1 / 2;
+ 
+}
+main{
+  display: grid;
+   grid-template-rows: repeat(4, 1fr);
+   grid-template-columns: 1fr 1fr;
+
+  gap: 20px;
+}
